@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Cart
+{% endblock %}
+
+{% block main %}
+    <div class="table-resposive">
+    <table class="table table-striped" id="myTable">
+        <thead>
+            <tr>
+                <th style="width:50%;">Product Name</th>
+                <th style="width:25%;">Price</th>
+                <th style="width:25%;">Number</th>
+            </tr>
+        </thead>
+        {% for item in items %}
+            <tr>
+                <td>{{ item.name }}</td>
+                <td>{{ item.price }}</td>
+                <td>{{ item.number }}</td>
+            </tr>
+        {% endfor %}
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <th></th>
+                <th>{{ total }}</th>
+            </tr>
+        </tfoot>
+    </table>
+    </div>
+{% endblock %}

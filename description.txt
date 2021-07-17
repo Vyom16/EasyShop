@@ -1,0 +1,7 @@
+Project Title : Easy Shop
+
+Idea :          To Link Online and offline shopping
+Theme :         Understanding the Market. 
+Problem :       When Shopping at stores, many times we have to wait in long Queues just for billing.
+Solution :
+Our Plan is to build a web app that connects the shop's inventory data-base to user's smart devices allowing them to scan the QR codes directly from the product on their smart devices providing them with E-bills and easy payment Options. Further we can add recommendations, similar products, sizes available and feedback options. This web-based app can also be used to filter search products.
